@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Завдання 1</title>
+</head>
+
+<body>
+   <main class="page">
+      <section class="block">
+         <div class="block__container">
+            <h1 class="block__title">Обов'язкове завдання 1</h1>
+            <div class="block__body">
+               <div class="block__text">
+                  <p>Розробити калькулятор</p>
+               </div>
+               <a href="../index.html" class="block__link">Повернутися до index.html</a>
+            </div>
+         </div>
+      </section>
+      <div class="calculator">
+         <div class="calculator__container">
+            <div class="calculator__header header-calculator">
+               <div class="header-calculator__items">
+                  <div class="header-calculator__item input-item">
+                     <input required id="calcFirstNum" type="text" name="calcFirstNum" class="header-calculator__input input">
+                     <label for="calcFirstNum" class="header-calculator__label label">First number</label>
+                  </div>
+                  <div class="header-calculator__item input-item">
+                     <input required id="calcSecondNum" type="text" name="calcSecondNum" class="header-calculator__input input">
+                     <label for="calcSecondNum" class="header-calculator__label label">Second number</label>
+                  </div>
+               </div>
+               <div class="header-calculator__buttons">
+                  <button id="calcAdd" type="button" class="header-calculator__button button">Додати</button>
+                  <button id="calcSubtract" type="button" class="header-calculator__button button">Відняти</button>
+                  <button id="calcMult" type="button" class="header-calculator__button button">Помножити</button>
+                  <button id="calcDivide" type="button" class="header-calculator__button button">Поділити</button>
+               </div>
+            </div>
+            <div class="calculator__body">
+               <div class="calculator__result">
+                  <label for="clacResult">Результат</label>
+                  <input id="clacResult" type="text" readonly name="clacResult" value="0" class="calculator__input input-result">
+               </div>
+            </div>
+         </div>
+      </div>
+   </main>
+   <script src="../js/task1.js"></script>
+</body>
+
+</html>

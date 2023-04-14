@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ukr">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../css/style.css">
+   <title>Завдання 7</title>
+</head>
+
+<body>
+   <main class="page">
+      <section class="block">
+         <div class="block__container">
+            <h1 class="block__title">Додаткове завдання 7</h1>
+            <div class="block__body">
+               <div class="block__text">
+                  <p>Користувач задає кількість оцінок і натискає на кнопку «get table». В результаті формується таблиця з input, куди користувач вводить оцінки. Після цього натискає на кнопку “get sum” і знаходить середнє значення.</p>
+               </div>
+               <a href="../index.html" class="block__link">Повернутися до index.html</a>
+            </div>
+         </div>
+      </section>
+      <div class="block">
+         <div class="block__container">
+            <div class="block__items items-block">
+               <div class="items-block__item">
+                  <h3 class="items-block__title">Вид транспорту</h3>
+                  <select class="items-block__select">
+                     <option value="150" selected>авто</option>
+                     <option value="300">автобус</option>
+                     <option value="500">літак </option>
+                  </select>
+               </div>
+               <div class="items-block__item">
+                  <h3 class="items-block__title">Харчування</h3>
+                  <div class="checkbox">
+                     <div class="checkbox__item">
+                        <input id="breakfast" class="checkbox__input" type="checkbox" value="40" name="food">
+                        <label for="breakfast" class="checkbox__label"><span class="checkbox__text">Сніданок</span></label>
+                     </div>
+                     <div class="options__item">
+                        <input id="lunch" class="checkbox__input" type="checkbox" value="75" name="food">
+                        <label for="lunch" class="checkbox__label"><span class="checkbox__text">Обід</span></label>
+                     </div>
+                     <div class="options__item">
+                        <input id="dinner" class="checkbox__input" type="checkbox" value="80" name="food">
+                        <label for="dinner" class="checkbox__label"><span class="checkbox__text">Вечеря</span></label>
+                     </div>
+                  </div>
+               </div>
+               <div class="items-block__item">
+                  <h3 class="items-block__title">Гід</h3>
+                  <div class="options">
+                     <div class="options__item">
+                        <input id="guide1" class="options__input" checked type="radio" value="300" name="guide">
+                        <label for="guide1" class="options__label"><span class="options__text">Іванов Іван Іванович</span></label>
+                     </div>
+                     <div class="options__item">
+                        <input id="guide2" class="options__input" type="radio" value="200" name="guide">
+                        <label for="guide2" class="options__label"><span class="options__text">Петренко Петро Петрович</span></label>
+                     </div>
+                     <div class="options__item">
+                        <input id="guide3" class="options__input" type="radio" value="250" name="guide">
+                        <label for="guide3" class="options__label"><span class="options__text">Василькова Василина Василівна</span></label>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <button type="button" class="block__button button">Підрахувати загальну вартість</button>
+            <div class="block__result"></div>
+         </div>
+      </div>
+   </main>
+   <script src="../js/task7.js"></script>
+</body>
+
+</html>

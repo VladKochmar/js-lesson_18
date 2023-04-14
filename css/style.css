@@ -1,0 +1,190 @@
+@import url('reset.css');
+@import url('common.css');
+@import url('https://fonts.googleapis.com/css?family=Poppins:regular');
+
+body {
+   font-family: 'Poppins', sans-serif;
+   color: #f5f5f5;
+   font-size: 18px;
+   background-color: #252525;
+}
+
+[class*='__container'] {
+   max-width: 1310px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.block {
+   padding: 70px 0;
+}
+.block__container {
+}
+.block__title {
+   font-size: 36px;
+   line-height: 125%;
+}
+.block__title:not(:last-child) {
+   margin-bottom: 25px;
+}
+.block__body {
+}
+.block__body:not(:last-child) {
+   margin-bottom: 30px;
+}
+.block__box:not(:last-child) {
+   margin-bottom: 40px;
+}
+.block__subtitle {
+   font-size: 24px;
+   line-height: 125%;
+}
+.block__subtitle:not(:last-child) {
+   margin-bottom: 20px;
+}
+.block__list {
+}
+.block__item {
+}
+.block__item {
+   display: grid;
+   justify-items: start;
+   row-gap: 5px;
+}
+.block__item:not(:last-child) {
+   margin-bottom: 15px;
+}
+.block__link {
+   line-height: 120%;
+   transition: color 0.3s ease 0s;
+}
+.block__link:hover {
+   color: #ffff00;
+}
+.block__text {
+   line-height: 1.5;
+}
+.block__text:not(:last-child) {
+   margin-bottom: 10px;
+}
+.block__table:not(:last-child) {
+   margin-bottom: 1.25rem;
+}
+/* ======================================================================================================================================================== */
+.calculator {
+}
+.calculator__container {
+}
+.calculator__header {
+   padding-bottom: 1rem;
+   border-bottom: 1px solid #f5f5f5;
+}
+.header-calculator {
+}
+.header-calculator__items {
+   display: grid;
+   row-gap: 1.25rem;
+}
+.header-calculator__items:not(:last-child) {
+   margin-bottom: 1.25rem;
+}
+.header-calculator__label {
+}
+.header-calculator__input {
+}
+
+.header-calculator__buttons {
+   display: flex;
+   gap: 1.25rem;
+}
+.header-calculator__button {
+}
+.calculator__body {
+   padding-top: 1rem;
+}
+.calculator__result {
+}
+.calculator__input {
+}
+/* ======================================================================================================================================================== */
+.converter {
+}
+.converter__container {
+}
+.converter__header {
+   display: grid;
+   row-gap: 1.25rem;
+   justify-items: start;
+}
+.converter__header:not(:last-child) {
+   margin-bottom: 1.25rem;
+}
+.converter__input {
+}
+.converter__label {
+}
+.converter__body {
+   display: grid;
+   row-gap: 1.25rem;
+}
+.converter__item {
+}
+/* ======================================================================================================================================================== */
+.table {
+}
+
+.table__row {
+}
+
+.table__column {
+   padding: 5px;
+   border: 2px solid #f5f5f5;
+}
+
+.table__input {
+   padding: 5px 10px;
+   color: #252525;
+}
+
+/* ======================================================================================================================================================== */
+.block__items:not(:last-child) {
+   margin-bottom: 1.25rem;
+}
+.items-block {
+   display: grid;
+   row-gap: 1.25rem;
+}
+.items-block__item {
+}
+.items-block__title:not(:last-child) {
+   margin-bottom: 0.9375rem;
+}
+.items-block__select {
+}
+.checkbox {
+   display: grid;
+   row-gap: 0.9375rem;
+}
+.checkbox__item {
+}
+.checkbox__input {
+}
+.checkbox__label {
+}
+.checkbox__text {
+}
+.options__item {
+}
+.options {
+   display: grid;
+   row-gap: 0.9375rem;
+}
+.options__input {
+}
+.options__label {
+}
+.options__text {
+}
+.block__button:not(:last-child) {
+   margin-bottom: 0.9375rem;
+}
